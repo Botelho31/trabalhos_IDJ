@@ -12,6 +12,7 @@
 
 int Alien::alienCount;
 //TEST
+
 Alien::Alien(GameObject& associated,int nMinions,float timeOffSet) : Component(associated){
     alienCount ++;
     state = RESTING;
